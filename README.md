@@ -200,6 +200,12 @@ The supplied `docs/upload-local-file.sh` provides an example of how to upload a 
 * download the example ocr image `wget http://bit.ly/ocrimage`
 * example: `docs/upload-local-file.sh http://10.0.2.15:$HTTP_PORT/ocr-file-upload ocrimage` 
 
+# Online Test
+Go to https://reqbin.com/
+* Paste the URL of the server http://<ip-address>:9292/ocr
+* Set the method to POST
+* In the content paste {"img_url":"<a-valid-image-url","engine":"tesseract"}
+* Hit Send
 
 # Community
 
